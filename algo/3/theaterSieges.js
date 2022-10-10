@@ -18,8 +18,16 @@ exemple :
 */
 
 function theaterSieges() {
-  // Your code here !
-}
+  const tableauPrincipale = [[]];
+  let index = 1;
+
+   for (let a = 0; a < 27; a++) {
+         for(let i =1; i < 101; i++){
+          tableauPrincipale[i][i] = `${index}-${i}`;
+          }
+index +=1
+        };
+};
 
 console.log(theaterSieges());
 
