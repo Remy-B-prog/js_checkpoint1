@@ -15,12 +15,47 @@ a {
 
 .navbar {
   display: flex;
+  justify-content: space-between;
   margin: 15px 30px;
 }
 
 .logo {
   max-height: 3rem;
 }
+
+.containerAvatar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerAvatar h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.containerAvatar h2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.avatarImg{
+  width: auto;
+  height: auto;
+}
+
+.logoUsineAgas{
+display: none;
+}
+
+
+.heading{
+  text-align: center;
+}
+.contents{
+  justify-items: center;
+}
+
 
 #name {
   color: red;

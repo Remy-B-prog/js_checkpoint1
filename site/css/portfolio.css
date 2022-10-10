@@ -33,6 +33,12 @@
   padding: 0 10%;
 }
 
+@media screen and (min-width: 700px) {
+  .skills {
+   display: flex;
+  }
+}
+
 .column {
   border-left: 1px solid #e6ecf8;
   border-right: 1px solid #e6ecf8;
@@ -42,6 +48,12 @@
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5);
+}
+
+@media screen and (min-width: 700px) {
+  .column {
+   width: auto;
+  }
 }
 
 .column:first-child {
@@ -60,7 +72,7 @@
 }
 
 .box {
-  width: 25%;
+  width: auto;
   padding: 30px;
   border: 1px solid #e6ecf8;
   margin: 20px;
